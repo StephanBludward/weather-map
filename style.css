@@ -1,37 +1,31 @@
 #legend {
-    position: absolute;       /* so it can float over the map */
-    top: 80px;                /* adjust position to your liking */
+    position: absolute;
+    /* Positioning: right side, halfway down the screen */
+    top: 50%;
     right: 10px;
-    background-color: rgba(255, 255, 255, 0.8); 
-    padding: 10px;
+    transform: translateY(-50%);
+  
+    /* Appearance */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
     border-radius: 4px;
-    font-family: sans-serif;
-    max-width: 150px;
+    font-size: 12px;
+    color: #333;
+    z-index: 999; /* ensure it stays on top */
   }
   
-  #legend h3 {
-    margin: 0 0 8px;
-    font-size: 16px;
-  }
-  
-  #legend ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #legend li {
-    margin: 6px 0;
+  #legend .legend-item {
     display: flex;
     align-items: center;
+    margin-bottom: 3px;
   }
   
-  .color-box {
+  #legend .legend-color {
     display: inline-block;
     width: 12px;
     height: 12px;
-    margin-right: 8px;
-    border: 1px solid #000;
+    margin-right: 5px;
+    border: 1px solid #333;
     border-radius: 2px;
   }
   

@@ -27,13 +27,28 @@
 <body>
   <h1>Global Weather Map</h1>
   <div id="legend">
-    <h3>Color Meaning</h3>
-    <ul>
-      <li><span class="color-box" style="background-color: blue;"></span>Cold (Blue)</li>
-      <li><span class="color-box" style="background-color: green;"></span>Mild (Green)</li>
-      <li><span class="color-box" style="background-color: red;"></span>Hot (Red)</li>
-    </ul>
+    <div class="legend-item">
+      <span class="legend-color" style="background-color: #00f;"></span>
+      <span>< 0°C</span>
+    </div>
+    <div class="legend-item">
+      <span class="legend-color" style="background-color: #0fa;"></span>
+      <span>0–10°C</span>
+    </div>
+    <div class="legend-item">
+      <span class="legend-color" style="background-color: #0f0;"></span>
+      <span>10–20°C</span>
+    </div>
+    <div class="legend-item">
+      <span class="legend-color" style="background-color: #ff0;"></span>
+      <span>20–30°C</span>
+    </div>
+    <div class="legend-item">
+      <span class="legend-color" style="background-color: #f00;"></span>
+      <span>> 30°C</span>
+    </div>
   </div>
+  
   <div id="map"></div>
 
   <!-- Leaflet JS -->
