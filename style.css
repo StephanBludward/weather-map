@@ -14,18 +14,5 @@
     z-index: 999; /* ensure it stays on top */
   }
   
-  #legend .legend-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 3px;
-  }
-  
-  #legend .legend-color {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    margin-right: 5px;
-    border: 1px solid #333;
-    border-radius: 2px;
-  }
+
   
